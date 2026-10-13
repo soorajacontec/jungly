@@ -65,13 +65,10 @@ No install or build is needed. Serve the folder with any static server (service 
 python3 -m http.server 8080
 # then open http://localhost:8080
 ```
+## App Live
 
-## Publish on GitHub Pages
+**[▶ Open the live app](https://soorajacontec.github.io/jungly/)**
 
-1. Create a new repository on GitHub and push this folder (see below).
-2. In the repository, open **Settings → Pages** and set **Source** to **GitHub Actions**.
-3. The included workflow (`.github/workflows/pages.yml`) deploys the site on every push to `main`. Your game will be at `https://<your-user>.github.io/<repo-name>/`.
-4. Open that address on a phone and choose **Add to Home Screen** (iPhone) or **Install app** (Android and desktop Chrome).
 
 ```bash
 git remote add origin https://github.com/<your-user>/jungly.git
